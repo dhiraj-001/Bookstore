@@ -1,0 +1,36 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore all JavaScript and JSON files in the public directory
+public/**/*.js
+public/**/*.json
+
+# Ignore all minified files
+*.min.js
+*.min.css
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+dist
+tmp
+temp
